@@ -1,4 +1,4 @@
-# Pathfinding-Visualiser-Project
+# Moon Rover path finder
 
 This is a Project which will visualize different PathFinding Algorithms. 
 
