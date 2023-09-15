@@ -1,7 +1,7 @@
-# Pathfinding-Visualiser-Project
+# Moon Rover path finder
 
 This is a Project which will visualize different PathFinding Algorithms. 
-Check live demo of the project on https://abhi20012.github.io/Visual_Pahtfinder/
+
 
 ## Visualize different algorithms
 ### Pathfinding Algorithms
