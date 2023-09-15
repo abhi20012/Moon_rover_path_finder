@@ -1,9 +1,3 @@
-/**
- * @author Karan Gandhi
- * @email karangandhi.programming@gmail.com
- * @create date 2019-12-26 19:51:57
- * @desc Node class
- */
 
 "use strict";
 
