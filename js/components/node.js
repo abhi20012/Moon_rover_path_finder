@@ -195,22 +195,6 @@ class Node {
         }
     }
 
-    animate() {
-        // this.node.style.transition = "0s";
-        // this.node.style.transform = "scale(0)";
-        // setTimeout(() => {
-        //     this.node.style.transition = "0.4s";
-        //     this.node.style.transform = "scale(1)";            
-        // }, 2);
-        // this.node.style.transform = "scale(0.1)";
-        // setTimeout(() => (this.node.style.transform = "scale(1)"), 400);
-        // let i = 0;
-        // let interval = setInterval(() => {
-        //     if (i === 1) clearInterval(interval);
-        //     this.node.style.transform = `scale(${i})`;
-        //     i += 0.1;
-        // }, 100);
-    }
 
     setWall() {
         this.obstacle = true;
@@ -234,21 +218,7 @@ class Node {
         let rows = grid.rows;
         let unvisitedn = true;
 
-        // if (!(x - 2 >= 0 && !g[x - 2][y].visited)) {
-        //     unvisitedn = false;
-        // }
-        // if (!(y - 2 >= 0 && !g[x][y - 2].visited)) {
-        //     unvisitedn = false;
-        // }
-        // if (!(y + 2 < cols && !g[x][y + 2].visited)) {
-        //     unvisitedn = false;
-        // }
-        // if (!(x + 2 < rows && !g[x + 2][y].visited)) {
-        //     unvisitedn = false;
-        // }
-
-        // return unvisitedn;
-        let w = x - 2 >= 0 && !g[x - 2][y].visited, // if it exists and is not visited then true
+             let w = x - 2 >= 0 && !g[x - 2][y].visited, // if it exists and is not visited then true
             e = x + 2 < rows && !g[x + 2][y].visited,
             n = y - 2 >= 0 && !g[x][y - 2].visited,
             s = y + 2 > cols && !g[x][y + 2].visited;
