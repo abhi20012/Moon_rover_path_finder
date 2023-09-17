@@ -48,6 +48,6 @@ window.onload = () => {
         grid.addNodeN();
         if (algo === "A * Algorithm") astar(grid.start, grid.end, t);
         else if (algo === "Dijkstra's Algorithm") dijkstra(grid.start, grid.end, t);
-        else new Snackbar("Please select an Pathfinding algorithm", [], [], SNCAKBAR_TIME_MEDIUM).build().show();
+        else alert("Please select an algorithm");
     });
 };

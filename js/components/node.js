@@ -36,6 +36,7 @@ class Node {
         this.mneighbours = [];
         this.mwalls = [];
         this.visited = false;
+        
         this.node = document.createElement("div");
         this.node.style.position = "absolute";
         this.node.style.left = x * w + "px";
@@ -45,6 +46,7 @@ class Node {
         this.node.id = "col";
         this.node.pgrid = grid;
         this.node.obj = this;
+
         if (this.obstacle) {
             this.node.classList.toggle("obstacle");
         }

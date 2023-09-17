@@ -8,6 +8,7 @@
  * @param {Number} t
  */
 function astar(start, end, t) {
+    
     grid.setAlgo(astar);
     // grid.resetPath();
     let openset = [start];
